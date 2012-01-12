@@ -1,3 +1,6 @@
 Feel free to use this code as you please. It's GPL, I can't take credit for the biggest part of it as most of it was taken from the MODX Revolution source but slightly modified.
   
-You can install mhDash via your package manager in MODX 2.2, or download it from "the MODX Extras Repo":http://modx.com/extras/package/mhdash.
+At this time you can download the transport package on github:
+https://github.com/sepiariver/flowDashboard/tree/master/_packages
+
+Then, upload it to your packages directory in MODX and install via Package Manager. More detailed instructions to follow on the pl release.
