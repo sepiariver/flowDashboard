@@ -2,13 +2,13 @@
 $widgets = array();
 $widgets[1]= $modx->newObject('modDashboardWidget');
 $widgets[1]->fromArray(array (
-  'name' => 'mhdash.title',
-  'description' => 'mhdash.description',
+  'name' => 'flowdashboard.title',
+  'description' => 'flowdashboard.description',
   'type' => 'file',
-  'size' => 'half',
-  'content' => '[[++core_path]]components/mhdash/widget.php',
-  'namespace' => 'mhdash',
-  'lexicon' => 'mhdash:default',
+  'size' => 'double',
+  'content' => '[[++core_path]]components/flowdashboard/widget.php',
+  'namespace' => 'flowdashboard',
+  'lexicon' => 'flowdashboard:default',
 ), '', true, true);
 
 return $widgets;
