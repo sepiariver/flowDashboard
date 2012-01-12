@@ -6,10 +6,10 @@ $tstart = $mtime;
 set_time_limit(0);
 
 /* define package */
-define('PKG_NAME','mhDash');
+define('PKG_NAME','flowDashboard');
 define('PKG_NAME_LOWER',strtolower(PKG_NAME));
-define('PKG_VERSION','1.0.0');
-define('PKG_RELEASE','pl');
+define('PKG_VERSION','0.0.1');
+define('PKG_RELEASE','beta');
 
 $root = dirname(dirname(__FILE__)).'/';
 $sources= array (
